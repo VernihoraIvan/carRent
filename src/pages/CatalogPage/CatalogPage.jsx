@@ -1,4 +1,4 @@
-// import styles from "./CatalogPage.module.scss";
+// import styles from "./CatalogPage.module.css";
 
 import CarProfile from "@/components/CarProfile/CarProfile";
 import Catalog from "@/components/Catalog/Catalog";

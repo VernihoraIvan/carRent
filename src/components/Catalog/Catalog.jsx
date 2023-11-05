@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import CatalogItem from "../CatalogItem/CatalogItem";
-import styles from "./Catalog.module.scss";
+import styles from "./Catalog.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAllCars } from "@/redux/cars/thunk";
 import { getCars } from "@/redux/cars/selectors";

@@ -4,12 +4,12 @@ import { getBrands } from "@/redux/cars/selectors";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import styles from "./Select.module.scss";
+import styles from "./Select.module.css";
 import { filterCars } from "@/redux/filter/slice";
 
 const Select = () => {
-  const [brand, setBrand] = useState('Enter the text');
-  const [price, setPrice] = useState('price');
+  const [brand, setBrand] = useState("Enter the text");
+  const [price, setPrice] = useState("price");
   const [minMileage, setMinMileage] = useState(null);
   const [maxMileage, setMaxMileage] = useState(null);
 
@@ -21,9 +21,9 @@ const Select = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    dispatch(filterCars({brand, price, minMileage, maxMileage}))
-  }
-  
+    dispatch(filterCars({ brand, price, minMileage, maxMileage }));
+  };
+
   useEffect(() => {
     dispatch(fetchBrands());
   }, [dispatch]);
@@ -107,7 +107,11 @@ const Select = () => {
           </div>
         </div>
         <div className={styles.form_element}>
-          <div onClick={onSubmit} className={styles.submit_button} type="submit">
+          <div
+            onClick={onSubmit}
+            className={styles.submit_button}
+            type="submit"
+          >
             Search
           </div>
         </div>

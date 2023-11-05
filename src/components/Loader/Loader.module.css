@@ -1,0 +1,9 @@
+@import "@/css/base/variables.css";
+@import "@/css/base/mixins.css";
+
+.loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

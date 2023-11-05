@@ -1,9 +1,5 @@
-// import styles from "../HomePage/HomePage.module.scss";
+// import styles from "../HomePage/HomePage.module.css";
 
-
-
-
-const HomePage = () => { 
-};
+const HomePage = () => {};
 
 export default HomePage;

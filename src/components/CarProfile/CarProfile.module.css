@@ -1,5 +1,5 @@
-@import "@/scss/base/variables.scss";
-@import "@/scss/base/mixins.scss";
+@import "@/css/base/variables.css";
+@import "@/css/base/mixins.css";
 
 .overlay {
   background-color: rgba(18, 20, 23, 0.5);

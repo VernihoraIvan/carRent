@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import ReactDom from "react-dom";
 
-import styles from "./CarProfile.module.scss";
+import styles from "./CarProfile.module.css";
 import { Loader } from "../Loader/Loader";
 
 const CarProfile = (props) => {
