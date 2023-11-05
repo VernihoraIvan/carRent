@@ -1,0 +1,35 @@
+@import "@/scss/base/variables.scss";
+@import "@/scss/base/mixins.scss";
+
+.catalog_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.catalog_table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.button {
+    background-color: inherit;
+    color: $primary-blue;
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration-line: underline;
+}
+
+.button:hover {
+    color: $secondary-blue;
+}
