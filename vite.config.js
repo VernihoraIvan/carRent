@@ -12,5 +12,5 @@ export default defineConfig({
   //   },
   // },
   plugins: [react(), svgr()],
-  base: "./",
+  base: "./carRent",
 });
